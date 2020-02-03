@@ -1,5 +1,6 @@
 import sys
 import matplotlib.pyplot as plt
+import numpy as np
 
 def fafile2dict():
     '''
@@ -42,11 +43,25 @@ def fafile2dict():
                 if bp_sort == 'G' or bp_sort == 'C':
                     base_gc += 1
             count_list.append(base_gc)
+    
+    count_set = set(count_list)
 
-    plt.scatter(range(len(count_list)), count_list, s=1, alpha=0.5)
-    plt.xlabel('genome location')
-    plt.ylabel('(#G + #C) / 100')
-    plt.title('question 2.2')
+    percentage = []
+    num_gc = []
+
+    for item in count_set:
+        percentage.append(item)
+        num_gc.append(count_list.count(item))
+    num_gc = list(map(int, num_gc))
+    # num_gc = sorted(num_gc, reverse=False)
+    percentage = list(map(int, percentage))
+    # percentage = sorted(percentage, reverse=False)
+    # plt.hist(percentage, np.array(num_gc))
+    # plt.hist(percentage, np.array(num_gc))
+    plt.bar(percentage, num_gc)
+    plt.xlabel("%GC")
+    plt.ylabel("# genomic bins with this %GC")
+    plt.title('question 2.3')
     plt.show()
 
 
