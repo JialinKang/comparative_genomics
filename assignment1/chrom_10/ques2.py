@@ -44,7 +44,8 @@ def fafile2dict():
             count.append(base_gc)
     # print(count)
 
-    plt.bar(range(len(count)), count)
+    plt.scatter(range(len(count)), count, s=1, alpha=0.2)
+    plt.show()
 
 
 
