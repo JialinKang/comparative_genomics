@@ -53,20 +53,16 @@ def fafile2dict():
                 base_gc += 1
         count_list.append(base_gc)
 
-        
-    # print(num)
+    # draw the figure    
     plt.xlabel('genome location')
     plt.ylabel('(#G + #C) / 100')
     plt.title('question 2.2')
-    plt.vlines(num, 0, 80, 'r', 'dashed', linewidths=0.5)
+    plt.vlines(num, 0, 80, 'g', 'dashed', linewidths=0.5)
+    plt.hlines([30,65], 0, len(count_list),'r', 'dashed', linewidths=2)
     plt.scatter(range(len(count_list)), count_list, s=1, alpha=0.5)
     plt.xticks(num, chrom_name, rotation=90)
     plt.show()
 
-
-
-    # print('A:',base_a,'T:',base_t,'C:',base_c,'G:',base_g) 
-    # return base_a, base_t, base_c, base_g
 
 if __name__ == "__main__":
     fafile2dict()
