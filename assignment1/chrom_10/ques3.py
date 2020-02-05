@@ -53,21 +53,13 @@ def fafile2dict():
         percentage.append(item)
         num_gc.append(count_list.count(item))
     num_gc = list(map(int, num_gc))
-    # num_gc = sorted(num_gc, reverse=False)
     percentage = list(map(int, percentage))
-    # percentage = sorted(percentage, reverse=False)
-    # plt.hist(percentage, np.array(num_gc))
-    # plt.hist(percentage, np.array(num_gc))
     plt.bar(percentage, num_gc)
     plt.xlabel("%GC")
     plt.ylabel("# genomic bins with this %GC")
     plt.title('question 2.3')
     plt.show()
 
-
-
-    # print('A:',base_a,'T:',base_t,'C:',base_c,'G:',base_g) 
-    # return base_a, base_t, base_c, base_g
 
 if __name__ == "__main__":
     fafile2dict()
