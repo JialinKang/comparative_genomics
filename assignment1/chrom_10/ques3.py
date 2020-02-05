@@ -9,7 +9,7 @@ def fafile2dict():
     STDIN:
     ----------------------------------------
     the fasta file
-    run as 'python3 ques1.py yeast.fa'
+    run as 'python3 ques1.py < yeast.fa'
     ----------------------------------------
 
     Return:
