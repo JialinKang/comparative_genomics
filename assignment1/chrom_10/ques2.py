@@ -3,24 +3,13 @@ import matplotlib.pyplot as plt
 
 def fafile2dict():
     '''
-    this function can be used to calculate the As, Cs, Gs, Ts in entire genome
+    Make a scatterplot of the %GC of 100bp non-overlapping windows
+    across the genome: x-axis = genome location, y-axis = (#G + #C) / 100.
     
     STDIN:
     ----------------------------------------
     the fasta file
-    run as 'python3 ques1.py yeast.fa'
-    ----------------------------------------
-
-    Return:
-    ----------------------------------------
-    base_a:int
-    the number of As
-    base_c:int
-    the number of Cs
-    base_g:int
-    the number of Gs
-    base_t:int
-    the number of Ts
+    run as 'python3 ques2.py yeast.fa'
     ----------------------------------------
     '''
     line = sys.stdin.readline().replace('\n','')

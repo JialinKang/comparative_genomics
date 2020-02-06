@@ -4,24 +4,12 @@ import numpy as np
 
 def fafile2dict():
     '''
-    this function can be used to calculate the As, Cs, Gs, Ts in entire genome
+    Make a histogram of the number of genomic bins of a given %GC
     
     STDIN:
     ----------------------------------------
     the fasta file
-    run as 'python3 ques1.py < yeast.fa'
-    ----------------------------------------
-
-    Return:
-    ----------------------------------------
-    base_a:int
-    the number of As
-    base_c:int
-    the number of Cs
-    base_g:int
-    the number of Gs
-    base_t:int
-    the number of Ts
+    run as 'python3 ques3.py < yeast.fa'
     ----------------------------------------
     '''
     line = sys.stdin.readline().replace('\n','')
@@ -33,9 +21,9 @@ def fafile2dict():
         else:
             seq[name] += line.replace('\n','').strip()
         line = sys.stdin.readline()
+    count_list = []
     for bp in seq.values():
         bp_list = list(bp)
-        count_list = []
         for i in range(int(len(bp_list)/100)):
             bp_frag = bp_list[(100*i-100):100*i]
             base_gc = 0
