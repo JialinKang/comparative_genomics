@@ -1,0 +1,12 @@
+- "left reads":
+  - "/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/jump2k.1.fq"
+  "orientation": "rf"
+  "right reads":
+  - "/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/jump2k.2.fq"
+  "type": "mate-pairs"
+- "left reads":
+  - "/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/frag180.1.fq"
+  "orientation": "fr"
+  "right reads":
+  - "/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/frag180.2.fq"
+  "type": "paired-end"

@@ -1,0 +1,16 @@
+- "left reads":
+  - "/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm/corrected/jump2k.1.00.0_0.cor.fastq.gz"
+  "orientation": "rf"
+  "right reads":
+  - "/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm/corrected/jump2k.2.00.0_0.cor.fastq.gz"
+  "single reads":
+  - "/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm/corrected/jump2k._unpaired.00.0_0.cor.fastq.gz"
+  "type": "mate-pairs"
+- "left reads":
+  - "/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm/corrected/frag180.1.00.1_0.cor.fastq.gz"
+  "orientation": "fr"
+  "right reads":
+  - "/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm/corrected/frag180.2.00.1_0.cor.fastq.gz"
+  "single reads":
+  - "/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm/corrected/frag180._unpaired.00.1_0.cor.fastq.gz"
+  "type": "paired-end"

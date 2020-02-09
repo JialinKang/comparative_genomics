@@ -1,0 +1,41 @@
+Command line: /usr/lib/spades/bin/spades.py	--pe1-1	/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/frag180.1.fq	--pe1-2	/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/frag180.2.fq	--mp1-1	/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/jump2k.1.fq	--mp1-2	/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/jump2k.2.fq	-o	/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm	-t	4	-k	31	
+
+System information:
+  SPAdes version: 3.11.1
+  Python version: 2.7.17
+  OS: Linux-4.4.0-17763-Microsoft-x86_64-with-Ubuntu-18.04-bionic
+
+Output dir: /mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm
+Mode: read error correction and assembling
+Debug mode is turned OFF
+
+Dataset parameters:
+  Multi-cell mode (you should set '--sc' flag if input data was obtained with MDA (single-cell) technology or --meta flag if processing metagenomic dataset)
+  Reads:
+    Library number: 1, library type: mate-pairs
+      orientation: rf
+      left reads: ['/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/jump2k.1.fq']
+      right reads: ['/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/jump2k.2.fq']
+      interlaced reads: not specified
+      single reads: not specified
+    Library number: 2, library type: paired-end
+      orientation: fr
+      left reads: ['/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/frag180.1.fq']
+      right reads: ['/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/frag180.2.fq']
+      interlaced reads: not specified
+      single reads: not specified
+Read error correction parameters:
+  Iterations: 1
+  PHRED offset will be auto-detected
+  Corrected reads will be compressed (with gzip)
+Assembly parameters:
+  k: [31]
+  Repeat resolution is enabled
+  Mismatch careful mode is turned OFF
+  MismatchCorrector will be SKIPPED
+  Coverage cutoff is turned OFF
+Other parameters:
+  Dir for temp files: /mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm/tmp
+  Threads: 4
+  Memory limit (in Gb): 15
+
