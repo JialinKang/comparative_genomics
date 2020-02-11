@@ -1,37 +1,37 @@
-/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/ref.fa /mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm/contigs.fasta
+/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/ref.fa /mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm/scaffolds.fasta
 NUCMER
 
                                [REF]                [QRY]
 [Sequences]
-TotalSeqs                          1                    4
-AlignedSeqs               1(100.00%)           4(100.00%)
+TotalSeqs                          1                    1
+AlignedSeqs               1(100.00%)           1(100.00%)
 UnalignedSeqs               0(0.00%)             0(0.00%)
 
 [Bases]
-TotalBases                    233806               234596
-AlignedBases          233748(99.98%)       233748(99.64%)
-UnalignedBases             58(0.02%)           848(0.36%)
+TotalBases                    233806               234626
+AlignedBases          233784(99.99%)       233778(99.64%)
+UnalignedBases             22(0.01%)           848(0.36%)
 
 [Alignments]
-1-to-1                             5                    5
-TotalLength                   233748               233748
-AvgLength                   46749.60             46749.60
-AvgIdentity                   100.00               100.00
+1-to-1                             2                    2
+TotalLength                   233784               233778
+AvgLength                  116892.00            116889.00
+AvgIdentity                    99.98                99.98
 
-M-to-M                             5                    5
-TotalLength                   233748               233748
-AvgLength                   46749.60             46749.60
-AvgIdentity                   100.00               100.00
+M-to-M                             2                    2
+TotalLength                   233784               233778
+AvgLength                  116892.00            116889.00
+AvgIdentity                    99.98                99.98
 
 [Feature Estimates]
-Breakpoints                       10                    2
+Breakpoints                        4                    2
 Relocations                        0                    0
-Translocations                     3                    0
+Translocations                     0                    0
 Inversions                         0                    0
 
-Insertions                         5                    1
-InsertionSum                      58                  848
-InsertionAvg                   11.60               848.00
+Insertions                         2                    1
+InsertionSum                      22                  848
+InsertionAvg                   11.00               848.00
 
 TandemIns                          0                    0
 TandemInsSum                       0                    0
@@ -39,49 +39,55 @@ TandemInsAvg                    0.00                 0.00
 
 [SNPs]
 TotalSNPs                          1                    1
-CG                          0(0.00%)             0(0.00%)
-CT                        1(100.00%)             0(0.00%)
-CA                          0(0.00%)             0(0.00%)
-AG                          0(0.00%)             0(0.00%)
-AT                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-TC                          0(0.00%)           1(100.00%)
 TA                          0(0.00%)             0(0.00%)
+TC                          0(0.00%)           1(100.00%)
 TG                          0(0.00%)             0(0.00%)
+AG                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AT                          0(0.00%)             0(0.00%)
+CA                          0(0.00%)             0(0.00%)
+CT                        1(100.00%)             0(0.00%)
+CG                          0(0.00%)             0(0.00%)
 GC                          0(0.00%)             0(0.00%)
-GA                          0(0.00%)             0(0.00%)
 GT                          0(0.00%)             0(0.00%)
+GA                          0(0.00%)             0(0.00%)
 
 TotalGSNPs                         1                    1
+AT                          0(0.00%)             0(0.00%)
+AC                          0(0.00%)             0(0.00%)
+AG                          0(0.00%)             0(0.00%)
+TG                          0(0.00%)             0(0.00%)
+TC                          0(0.00%)           1(100.00%)
+TA                          0(0.00%)             0(0.00%)
+GA                          0(0.00%)             0(0.00%)
+GT                          0(0.00%)             0(0.00%)
+GC                          0(0.00%)             0(0.00%)
 CT                        1(100.00%)             0(0.00%)
 CA                          0(0.00%)             0(0.00%)
 CG                          0(0.00%)             0(0.00%)
-AG                          0(0.00%)             0(0.00%)
-AC                          0(0.00%)             0(0.00%)
-AT                          0(0.00%)             0(0.00%)
-TG                          0(0.00%)             0(0.00%)
-TA                          0(0.00%)             0(0.00%)
-TC                          0(0.00%)           1(100.00%)
-GC                          0(0.00%)             0(0.00%)
-GA                          0(0.00%)             0(0.00%)
-GT                          0(0.00%)             0(0.00%)
 
-TotalIndels                        0                    0
-C.                          0(0.00%)             0(0.00%)
+TotalIndels                        8                    8
+T.                         2(25.00%)             0(0.00%)
+A.                         1(12.50%)             0(0.00%)
+N.                          0(0.00%)            1(12.50%)
+W.                         1(12.50%)             0(0.00%)
+C.                         1(12.50%)             0(0.00%)
+G.                         2(25.00%)             0(0.00%)
+.T                          0(0.00%)            2(25.00%)
+.A                          0(0.00%)            1(12.50%)
+.W                          0(0.00%)            1(12.50%)
+.N                         1(12.50%)             0(0.00%)
+.C                          0(0.00%)            1(12.50%)
+.G                          0(0.00%)            2(25.00%)
+
+TotalGIndels                       1                    1
+N.                          0(0.00%)           1(100.00%)
 A.                          0(0.00%)             0(0.00%)
 T.                          0(0.00%)             0(0.00%)
 G.                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)
-.T                          0(0.00%)             0(0.00%)
-.A                          0(0.00%)             0(0.00%)
-.C                          0(0.00%)             0(0.00%)
-
-TotalGIndels                       0                    0
 C.                          0(0.00%)             0(0.00%)
-A.                          0(0.00%)             0(0.00%)
-T.                          0(0.00%)             0(0.00%)
-G.                          0(0.00%)             0(0.00%)
+.G                          0(0.00%)             0(0.00%)
 .C                          0(0.00%)             0(0.00%)
+.N                        1(100.00%)             0(0.00%)
 .A                          0(0.00%)             0(0.00%)
 .T                          0(0.00%)             0(0.00%)
-.G                          0(0.00%)             0(0.00%)

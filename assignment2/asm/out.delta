@@ -1,16 +1,15 @@
-/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/ref.fa /mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm/contigs.fasta
+/mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/ref.fa /mnt/d/Downloads/computational_genomics/comparative_genomics/assignment2/asm/asm/scaffolds.fasta
 NUCMER
->Halomonas NODE_1_length_105834_cov_20.587847 233806 105834
-127961 233794 1 105834 1 1 0
-0
->Halomonas NODE_2_length_47851_cov_19.919427 233806 47851
-40659 88509 1 47851 0 0 0
-0
->Halomonas NODE_3_length_41484_cov_20.719972 233806 41484
+>Halomonas NODE_1_length_234626_cov_20.511980 233806 234626
 11 26789 1 26779 0 0 0
 0
-26790 40646 27628 41484 0 0 0
-0
->Halomonas NODE_4_length_39427_cov_20.872677 233806 39427
-88519 127945 1 39427 0 0 0
+26790 233794 27628 234626 38 38 0
+13858
+1
+-47862
+39437
+1
+1
+1
+1
 0
